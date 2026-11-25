@@ -198,7 +198,7 @@ class WeatherEmptyView extends StatelessWidget {
                       child: OutlinedButton.icon(
                         onPressed: onLoadSampleCity,
                         icon: const Icon(Icons.my_location_rounded),
-                        label: const Text('Muat Cuaca Yogyakarta'),
+                        label: const Text('Muat Cuaca Purbalingga'),
                       ),
                     ),
                   ],

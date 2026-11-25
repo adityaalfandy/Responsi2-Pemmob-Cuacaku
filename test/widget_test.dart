@@ -64,7 +64,7 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verifikasi seluruh data wajib pada Home / Weather Screen
-    expect(find.text('Yogyakarta'), findsOneWidget);
+    expect(find.text('Purbalingga'), findsOneWidget);
     expect(find.text('28.8°C'), findsOneWidget);
     expect(find.text('Gerimis Ringan'), findsAtLeastNWidgets(1));
     expect(find.text('WMO 51'), findsAtLeastNWidgets(1));
@@ -144,7 +144,7 @@ void main() {
     await tester.tap(find.widgetWithText(FilledButton, 'Coba Lagi'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Yogyakarta'), findsOneWidget);
+    expect(find.text('Purbalingga'), findsOneWidget);
     expect(find.text('28.8°C'), findsOneWidget);
   });
 }

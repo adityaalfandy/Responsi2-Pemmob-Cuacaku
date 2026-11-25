@@ -26,17 +26,17 @@ class LocalStorageService {
 
   /// Lokasi default awal jika belum ada lokasi tersimpan pada perangkat.
   static const LocationModel defaultLocation = LocationModel(
-    id: 1621177,
-    name: 'Yogyakarta',
-    latitude: -7.80139,
-    longitude: 110.36472,
+    id: 1630366,
+    name: 'Purbalingga',
+    latitude: -7.38806,
+    longitude: 109.36389,
     country: 'Indonesia',
     countryCode: 'ID',
-    admin1: 'Special Region of Yogyakarta',
-    admin2: 'Kota Yogyakarta',
+    admin1: 'Central Java',
+    admin2: 'Purbalingga Regency',
     timezone: 'Asia/Jakarta',
-    elevation: 110.0,
-    population: 375699,
+    elevation: 61.0,
+    population: 56903,
   );
 
   LocationModel? loadSelectedLocation() {

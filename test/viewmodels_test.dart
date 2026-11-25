@@ -60,7 +60,7 @@ void main() {
 
       await vm.initialize();
       expect(vm.status, WeatherViewStatus.loaded);
-      expect(vm.selectedLocation?.name, 'Yogyakarta');
+      expect(vm.selectedLocation?.name, 'Purbalingga');
       expect(vm.forecast?.current.temperature2m, 28.8);
 
       await vm.clearLocation();

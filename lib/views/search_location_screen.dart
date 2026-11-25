@@ -29,6 +29,7 @@ class _SearchLocationScreenState extends State<SearchLocationScreen> {
   Timer? _debounce;
 
   static const List<String> _quickQueries = [
+    'Purbalingga',
     'Yogyakarta',
     'Jakarta',
     'Bandung',
@@ -133,7 +134,7 @@ class _SearchLocationScreenState extends State<SearchLocationScreen> {
                           onSubmitted: _submitSearch,
                           decoration: InputDecoration(
                             hintText:
-                                'Cari kota (mis. Yogyakarta, Bandung, Tokyo)...',
+                                'Cari kota (mis. Purbalingga, Bandung, Tokyo)...',
                             prefixIcon: const Icon(Icons.search_rounded),
                             suffixIcon: _controller.text.isNotEmpty
                                 ? IconButton(
