@@ -7,7 +7,7 @@ Aplikasi mobile & web Flutter untuk menampilkan informasi cuaca terkini dan prak
 > - **NIM:** `H1D024103`  
 > - **Shift Awal:** `I`
 > - **Shift Akhir:** `H`
-> - **Link Video Penjelasan Kode:** `[Isi URL Video Anda]`  
+> - **Link Video Penjelasan Kode:** `https://youtu.be/z6_qovoGyOc`  
 
 ---
 
